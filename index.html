@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="bground" style="overflow-y: auto;">
+                <nav class="nav">
+                    <input class="btnChane" type="button" name="buttons" value="Border Radius" id="btnChane">
+                    <div class="dnone togglenone">
+                        <div class="blockInp">
+                            <div id="borderChange">
+                                <div style="display: block;">
+                                    <div><div>Top Left:</div><input type="range" name="" id="bordLeftTop" min="0" max="100" value="0"></div>
+                                    <div><div>Top Right:</div><input type="range" name="" id="bordRightTop" min="0" max="100" value="0"></div>
+                                    <div><div>Bottom Left:</div><input type="range" name="" id="bordLeftBottom" min="0" max="100" value="0"></div>
+                                    <div><div>Bottom Right:</div><input type="range" name="" id="bordRightBottom" min="0" max="100" value="0"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input class="btnChane" type="button" name="buttons" value="Box Shadow" id="boxBtn">
+                    <div class="dnone togglenone">
+                        <div class="blockInp">
+                            <div id="borderChange">
+                                <div style="display: block;">
+                                    <div><div>Inset:</div><select id="selectInset"><option value="No">No</option><option value="Yes">Yes</option></select></div>
+                                    <div><div>Horizontal Length:</div><input type="range" id="horLength" value="0"></div>
+                                    <div><div>Vertical Length:</div><input type="range" id="vertLength" value="0"></div>
+                                    <div><div>Blur Radius:</div><input type="range" id="blurRad" value="0"></div>
+                                    <div><div>Spread:</div><input type="range" id="spread" value="0"></div>
+                                    <div><div>Color Type:</div><input type="color" id="colorType"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input class="btnChane" type="button" name="buttons" value="Backgorund Color" id="backGroundColorBlock">
+                    <div class="dnone togglenone">
+                        <div class="blockInp">
+                            <div id="borderChange">
+                                <div style="display: block;">
+                                    <div><div>R:</div><input type="range" id="rBBgc" min="0" max="255" value="255"></div>
+                                    <div><div>G:</div><input type="range" id="gBBgc" min="0" max="255" value="255"></div>
+                                    <div><div>B:</div><input type="range" id="bBgc" min="0" max="255" value="255"></div>
+                                    <div><div>Opacity:</div><input type="range" id="opacityBgc" min="0" max="1" value="1" step="0.1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input class="btnChane" type="button" name="buttons" value="Block Size" id="blockSize">
+                    <div class="dnone togglenone">
+                        <div class="blockInp">
+                            <div id="borderChange">
+                                <div style="display: block;">
+                                    <div><div>Width:</div><input type="range" id="blockWidth" min="0" max="800" value="0"></div>
+                                    <div><div>Height:</div><input type="range" id="BlockHeight" min="0" max="650" value="0"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input class="btnChane" type="button" name="buttons" value="Text Size" id="textSize">
+                    <div class="dnone togglenone">
+                        <div class="blockInp">
+                            <div id="borderChange">
+                                <div style="display: block;">
+                                    <div><div>Font Size:</div><input type="range" id="fontSized" min="0" max="50" value="0"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input class="btnChane" type="button" name="buttons" value="Transform" id="transoformChange">
+                    <div class="dnone togglenone">
+                        <div class="blockInp">
+                            <div id="borderChange">
+                                <div style="display: block;">
+                                    <div><div>Scale:</div><input type="range" id="scaleSize" value="1" max="3" step="0.1"></div>
+                                    <div><div>Rotate:</div><input type="range" max="360" id="rotateTransform" value="0"></div>
+                                    <div><div>TranslateX:</div><input type="range" min="-100" max="200" id="translateX" value="0"></div>
+                                    <div><div>TranslateY:</div><input type="range" min="-100" max="200" id="translateY" value="0"></div>
+                                    <div><div>SkewX:</div><input type="range" id="skewX" value="0"></div>
+                                    <div><div>SkewY:</div><input type="range" id="skewY" value="0"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+        </div>
+        <div class="block__second">
+            <div id="blockChange">
+                text
+            </div>
+            <div id="blockResultChange">
+                <input type="button" value="Copy" id="copyCode">
+                <div id="blockTextResult">
+                    Code
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
